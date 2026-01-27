@@ -48,6 +48,12 @@ export default [
 		icon: 'ShoppingOutlined',
 		component: './QuanLySanPham',
 	},
+	{
+		path: '/quan-ly-don-hang',
+		name: 'QuanLyDonHang',
+		icon: 'ShoppingCartOutlined',
+		component: './QuanLyDonHang',
+	},
 
 	// DANH MUC HE THONG
 	// {

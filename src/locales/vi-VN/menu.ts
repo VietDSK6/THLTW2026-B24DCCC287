@@ -8,6 +8,7 @@ export default {
 	'menu.RandomUser': 'Random User',
 	'menu.TodoList': 'Todo List',
 	'menu.QuanLySanPham': 'Quản lý Sản phẩm',
+	'menu.QuanLyDonHang': 'Quản lý Đơn hàng',
 
 	'menu.DanhMuc': 'Danh mục',
 	'menu.DanhMuc.ChucVu': 'Chức vụ',
