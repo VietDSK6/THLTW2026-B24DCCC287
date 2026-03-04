@@ -1,0 +1,90 @@
+@import '~antd/es/style/themes/default.less';
+
+.game-wrapper {
+	max-width: 520px;
+	margin: 0 auto;
+	padding: 24px;
+
+	.game-header {
+		margin-bottom: 24px;
+		text-align: center;
+
+		h1 {
+			margin-bottom: 8px;
+			font-weight: 600;
+			font-size: 28px;
+		}
+
+		p {
+			color: #666;
+			font-size: 15px;
+		}
+	}
+
+	.game-input-row {
+		display: flex;
+		gap: 8px;
+		margin-bottom: 16px;
+	}
+
+	.game-message {
+		margin-bottom: 16px;
+		padding: 12px;
+		font-size: 16px;
+		text-align: center;
+		border-radius: 6px;
+
+		&.msg-high {
+			color: #d46b08;
+			background: #fff7e6;
+			border: 1px solid #ffd591;
+		}
+
+		&.msg-low {
+			color: #096dd9;
+			background: #e6f7ff;
+			border: 1px solid #91d5ff;
+		}
+
+		&.msg-correct {
+			color: #389e0d;
+			background: #f6ffed;
+			border: 1px solid #b7eb8f;
+		}
+
+		&.msg-lose {
+			color: #cf1322;
+			background: #fff1f0;
+			border: 1px solid #ffa39e;
+		}
+	}
+
+	.attempts-info {
+		margin-bottom: 12px;
+		color: #888;
+		font-size: 14px;
+		text-align: center;
+	}
+
+	.history-section {
+		margin-top: 20px;
+
+		h3 {
+			margin-bottom: 10px;
+			font-size: 15px;
+		}
+	}
+
+	.history-item {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 4px;
+		padding: 6px 12px;
+		font-size: 14px;
+		border-radius: 4px;
+
+		&:nth-child(odd) {
+			background: #fafafa;
+		}
+	}
+}

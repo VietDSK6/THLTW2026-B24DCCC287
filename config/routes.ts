@@ -42,6 +42,18 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
+	{
+		path: '/doan-so',
+		name: 'DoanSo',
+		icon: 'QuestionOutlined',
+		component: './DoanSo',
+	},
+	{
+		path: '/hoc-tap',
+		name: 'HocTap',
+		icon: 'BookOutlined',
+		component: './HocTap',
+	},
 
 	// DANH MUC HE THONG
 	// {
