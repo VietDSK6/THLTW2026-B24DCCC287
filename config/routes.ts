@@ -42,6 +42,18 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
+	{
+		path: '/oan-tu-ti',
+		name: 'OanTuTi',
+		icon: 'TrophyOutlined',
+		component: './OanTuTi',
+	},
+	{
+		path: '/quan-ly-de-thi',
+		name: 'QuanLyDeThi',
+		icon: 'FileTextOutlined',
+		component: './QuanLyDeThi',
+	},
 
 	// DANH MUC HE THONG
 	// {
