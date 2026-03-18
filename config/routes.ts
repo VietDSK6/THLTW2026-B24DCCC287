@@ -42,6 +42,38 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
+	{
+		name: 'Đặt lịch',
+		path: '/dat-lich',
+		icon: 'CalendarOutlined',
+		routes: [
+			{
+				name: 'Dịch vụ',
+				path: 'dich-vu',
+				component: './DatLich/DichVu',
+			},
+			{
+				name: 'Nhân viên',
+				path: 'nhan-vien',
+				component: './DatLich/NhanVien',
+			},
+			{
+				name: 'Lịch hẹn',
+				path: 'lich-hen',
+				component: './DatLich/LichHen',
+			},
+			{
+				name: 'Đánh giá',
+				path: 'danh-gia',
+				component: './DatLich/DanhGia',
+			},
+			{
+				name: 'Thống kê',
+				path: 'thong-ke',
+				component: './DatLich/ThongKe',
+			},
+		],
+	},
 
 	// DANH MUC HE THONG
 	// {
