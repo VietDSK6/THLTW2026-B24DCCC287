@@ -8,4 +8,11 @@ export default {
 
 	'menu.DanhMuc': 'Danh mục',
 	'menu.DanhMuc.ChucVu': 'Chức vụ',
+
+	'menu.QuanLyVanBang': 'Quản lý văn bằng',
+	'menu.QuanLyVanBang.SoVanBang': 'Sổ văn bằng',
+	'menu.QuanLyVanBang.QuyetDinh': 'Quyết định tốt nghiệp',
+	'menu.QuanLyVanBang.CauHinhBieuMau': 'Cấu hình biểu mẫu',
+	'menu.QuanLyVanBang.ThongTinVanBang': 'Thông tin văn bằng',
+	'menu.TraCuuVanBang': 'Tra cứu văn bằng',
 };
