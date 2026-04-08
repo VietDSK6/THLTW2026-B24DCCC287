@@ -43,6 +43,47 @@
 		component: './TodoList',
 	},
 
+	// DU LICH
+	{
+		name: 'Du lịch',
+		path: '/du-lich',
+		icon: 'CompassOutlined',
+		routes: [
+			{
+				name: 'Khám phá',
+				path: 'diem-den',
+				component: './DuLich/DiemDen',
+			},
+			{
+				name: 'Lịch trình',
+				path: 'lich-trinh',
+				component: './DuLich/LichTrinh',
+			},
+			{
+				name: 'Ngân sách',
+				path: 'ngan-sach',
+				component: './DuLich/NganSach',
+			},
+		],
+	},
+	{
+		name: 'Quản trị',
+		path: '/du-lich/admin',
+		icon: 'SettingOutlined',
+		routes: [
+			{
+				name: 'Quản lý điểm đến',
+				path: 'diem-den',
+				component: './DuLich/Admin/QuanLyDiemDen',
+			},
+			{
+				name: 'Thống kê',
+				path: 'thong-ke',
+				component: './DuLich/Admin/ThongKe',
+			},
+		],
+	},
+
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
