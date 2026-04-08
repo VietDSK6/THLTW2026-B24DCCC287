@@ -103,6 +103,41 @@
 		component: './CauLacBo',
 	},
 
+	// QUAN LY VAN BANG
+	{
+		name: 'QuanLyVanBang',
+		path: '/quan-ly-van-bang',
+		icon: 'BookOutlined',
+		routes: [
+			{
+				name: 'SoVanBang',
+				path: 'so-van-bang',
+				component: './QuanLyVanBang/SoVanBang',
+			},
+			{
+				name: 'QuyetDinh',
+				path: 'quyet-dinh',
+				component: './QuanLyVanBang/QuyetDinh',
+			},
+			{
+				name: 'CauHinhBieuMau',
+				path: 'cau-hinh-bieu-mau',
+				component: './QuanLyVanBang/CauHinhBieuMau',
+			},
+			{
+				name: 'ThongTinVanBang',
+				path: 'thong-tin-van-bang',
+				component: './QuanLyVanBang/ThongTinVanBang',
+			},
+		],
+	},
+	{
+		name: 'TraCuuVanBang',
+		path: '/tra-cuu-van-bang',
+		component: './TraCuuVanBang',
+		icon: 'SearchOutlined',
+	},
+
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
