@@ -5,6 +5,8 @@ export default {
 	'menu.Dashboard': 'Trang chủ',
 	'menu.About': `Giới thiệu ${APP_CONFIG_TIEN_TO_TRUONG.toLowerCase()}`,
 	'menu.News': 'Tin tức',
+	'menu.DoanSo': 'Đoán số',
+	'menu.HocTap': 'Học tập',
 
 	'menu.RandomUser': 'Random User',
 	'menu.TodoList': 'Todo List',

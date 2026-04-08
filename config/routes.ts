@@ -53,6 +53,22 @@
 		name: 'QuanLyDeThi',
 		icon: 'FileTextOutlined',
 		component: './QuanLyDeThi',
+		path: '/doan-so',
+		name: 'DoanSo',
+		icon: 'QuestionOutlined',
+		component: './DoanSo',
+	},
+	{
+		path: '/hoc-tap',
+		name: 'HocTap',
+		icon: 'BookOutlined',
+		component: './HocTap',
+  },
+   {
+		path: '/cau-lac-bo',
+		name: 'CauLacBo',
+		icon: 'TeamOutlined',
+		component: './CauLacBo',
 	},
 
 	// DANH MUC HE THONG
