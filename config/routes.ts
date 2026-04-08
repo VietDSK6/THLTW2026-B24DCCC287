@@ -43,6 +43,16 @@
 		component: './TodoList',
 	},
 	{
+		path: '/oan-tu-ti',
+		name: 'OanTuTi',
+		icon: 'TrophyOutlined',
+		component: './OanTuTi',
+	},
+	{
+		path: '/quan-ly-de-thi',
+		name: 'QuanLyDeThi',
+		icon: 'FileTextOutlined',
+		component: './QuanLyDeThi',
 		path: '/doan-so',
 		name: 'DoanSo',
 		icon: 'QuestionOutlined',
@@ -54,6 +64,7 @@
 		icon: 'BookOutlined',
 		component: './HocTap',
   },
+   {
 		path: '/cau-lac-bo',
 		name: 'CauLacBo',
 		icon: 'TeamOutlined',
