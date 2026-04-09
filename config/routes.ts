@@ -51,34 +51,34 @@
 		routes: [
 			{
 				name: 'Khám phá',
-				path: 'diem-den',
+				path: '/du-lich/diem-den',
 				component: './DuLich/DiemDen',
 			},
 			{
 				name: 'Lịch trình',
-				path: 'lich-trinh',
+				path: '/du-lich/lich-trinh',
 				component: './DuLich/LichTrinh',
 			},
 			{
 				name: 'Ngân sách',
-				path: 'ngan-sach',
+				path: '/du-lich/ngan-sach',
 				component: './DuLich/NganSach',
 			},
 		],
 	},
 	{
 		name: 'Quản trị',
-		path: '/du-lich/admin',
+		path: '/quan-ly-du-lich',
 		icon: 'SettingOutlined',
 		routes: [
 			{
 				name: 'Quản lý điểm đến',
-				path: 'diem-den',
+				path: '/quan-ly-du-lich/quan-ly-diem-den',
 				component: './DuLich/Admin/QuanLyDiemDen',
 			},
 			{
 				name: 'Thống kê',
-				path: 'thong-ke',
+				path: '/quan-ly-du-lich/thong-ke',
 				component: './DuLich/Admin/ThongKe',
 			},
 		],
