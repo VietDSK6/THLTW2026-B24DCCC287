@@ -1,4 +1,4 @@
-﻿export default [
+export default [
 	{
 		path: '/user',
 		layout: false,
@@ -85,6 +85,8 @@
 		name: 'QuanLyDeThi',
 		icon: 'FileTextOutlined',
 		component: './QuanLyDeThi',
+	},
+	{
 		path: '/doan-so',
 		name: 'DoanSo',
 		icon: 'QuestionOutlined',
@@ -95,10 +97,10 @@
 		name: 'HocTap',
 		icon: 'BookOutlined',
 		component: './HocTap',
-  },
+	},
    {
 		path: '/cau-lac-bo',
-		name: 'CauLacBo',
+		name: 'Câu lạc bộ',
 		icon: 'TeamOutlined',
 		component: './CauLacBo',
 	},
@@ -177,6 +179,12 @@
 				component: './DuLich/Admin/ThongKe',
 			},
 		],
+	},
+	{
+		path: '/quan-ly-don-hang',
+		name: 'Quản lý đơn hàng',
+		icon: 'ShoppingCartOutlined',
+		component: './QuanLyDonHang',
 	},
 
 	// DANH MUC HE THONG
