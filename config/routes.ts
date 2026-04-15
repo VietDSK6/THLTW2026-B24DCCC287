@@ -138,6 +138,47 @@
 		icon: 'SearchOutlined',
 	},
 
+	// DU LICH
+	{
+		name: 'Du lịch',
+		path: '/du-lich',
+		icon: 'CompassOutlined',
+		routes: [
+			{
+				name: 'Khám phá',
+				path: '/du-lich/diem-den',
+				component: './DuLich/DiemDen',
+			},
+			{
+				name: 'Lịch trình',
+				path: '/du-lich/lich-trinh',
+				component: './DuLich/LichTrinh',
+			},
+			{
+				name: 'Ngân sách',
+				path: '/du-lich/ngan-sach',
+				component: './DuLich/NganSach',
+			},
+		],
+	},
+	{
+		name: 'Quản trị',
+		path: '/quan-ly-du-lich',
+		icon: 'SettingOutlined',
+		routes: [
+			{
+				name: 'Quản lý điểm đến',
+				path: '/quan-ly-du-lich/quan-ly-diem-den',
+				component: './DuLich/Admin/QuanLyDiemDen',
+			},
+			{
+				name: 'Thống kê',
+				path: '/quan-ly-du-lich/thong-ke',
+				component: './DuLich/Admin/ThongKe',
+			},
+		],
+	},
+
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',

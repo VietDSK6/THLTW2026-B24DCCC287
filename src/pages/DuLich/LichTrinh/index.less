@@ -1,0 +1,131 @@
+@import '~antd/es/style/themes/default.less';
+
+.lich-trinh-page {
+	.header-section {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 12px;
+		margin-bottom: 16px;
+	}
+
+	.lich-trinh-list {
+		.lich-trinh-item {
+			padding: 12px;
+			border: 1px solid #f0f0f0;
+			border-radius: 8px;
+			margin-bottom: 12px;
+			cursor: pointer;
+			transition: all 0.3s;
+
+			&:hover {
+				border-color: var(--primary-color);
+			}
+
+			&.active {
+				border-color: var(--primary-color);
+				background-color: var(--primary-1);
+			}
+
+			.item-header {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				margin-bottom: 8px;
+
+				.item-title {
+					font-weight: 600;
+					font-size: 15px;
+				}
+			}
+
+			.item-info {
+				color: #666;
+				font-size: 13px;
+
+				span {
+					margin-right: 12px;
+				}
+			}
+
+			.item-budget {
+				margin-top: 8px;
+				font-size: 13px;
+
+				.label {
+					color: #888;
+				}
+
+				.value {
+					font-weight: 600;
+					color: var(--primary-color);
+				}
+			}
+		}
+	}
+
+	.detail-section {
+		.ngan-sach-summary {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			gap: 12px;
+			padding: 12px;
+			background: #fafafa;
+			border-radius: 8px;
+			margin-bottom: 16px;
+
+			.summary-item {
+				text-align: center;
+
+				.label {
+					color: #888;
+					font-size: 12px;
+				}
+
+				.value {
+					font-weight: 600;
+					font-size: 16px;
+
+					&.primary {
+						color: var(--primary-color);
+					}
+
+					&.warning {
+						color: var(--ant-warning-color);
+					}
+
+					&.error {
+						color: var(--ant-error-color);
+					}
+				}
+			}
+		}
+
+		.add-diem-den-section {
+			margin-bottom: 16px;
+		}
+	}
+}
+
+@media (max-width: @screen-md) {
+	.lich-trinh-page {
+		.detail-section {
+			.ngan-sach-summary {
+				.summary-item {
+					flex: 1 1 45%;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: @screen-xs) {
+	.lich-trinh-page {
+		.header-section {
+			flex-direction: column;
+			align-items: stretch;
+		}
+	}
+}
