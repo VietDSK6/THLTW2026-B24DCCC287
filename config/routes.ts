@@ -187,6 +187,46 @@ export default [
 		component: './QuanLyDonHang',
 	},
 
+	// BLOG
+	{
+		name: 'Blog',
+		path: '/blog',
+		icon: 'ReadOutlined',
+		routes: [
+			{
+				path: '/blog',
+				redirect: '/blog/trang-chu',
+				exact: true,
+			},
+			{
+				name: 'Trang chủ',
+				path: '/blog/trang-chu',
+				component: './Blog/TrangChu',
+			},
+			{
+				name: 'Chi tiết',
+				path: '/blog/bai-viet/:slug',
+				component: './Blog/ChiTiet',
+				hideInMenu: true,
+			},
+			{
+				name: 'Giới thiệu',
+				path: '/blog/gioi-thieu',
+				component: './Blog/GioiThieu',
+			},
+			{
+				name: 'Quản lý bài viết',
+				path: '/blog/quan-ly',
+				component: './Blog/QuanLy',
+			},
+			{
+				name: 'Quản lý thẻ',
+				path: '/blog/quan-ly-the',
+				component: './Blog/QuanLyThe',
+			},
+		],
+	},
+
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
