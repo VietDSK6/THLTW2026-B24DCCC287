@@ -1,0 +1,26 @@
+.quanLyBlog {
+	.toolbar {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 16px;
+		flex-wrap: wrap;
+		gap: 12px;
+
+		.toolbarLeft {
+			display: flex;
+			gap: 12px;
+			flex-wrap: wrap;
+		}
+	}
+
+	.statusTag {
+		&.published {
+			color: #52c41a;
+		}
+
+		&.draft {
+			color: #faad14;
+		}
+	}
+}
