@@ -174,6 +174,30 @@ export default [
 		],
 	},
 
+	// QUAN LY CONG VIEC
+	{
+		name: 'Quản lý công việc',
+		path: '/quan-ly-cong-viec',
+		icon: 'ProjectOutlined',
+		routes: [
+			{
+				name: 'Dashboard',
+				path: 'dashboard',
+				component: './QuanLyCongViec/Dashboard',
+			},
+			{
+				name: 'Bảng Kanban',
+				path: 'kanban',
+				component: './QuanLyCongViec/Kanban',
+			},
+			{
+				name: 'Danh sách',
+				path: 'danh-sach',
+				component: './QuanLyCongViec/DanhSach',
+			},
+		],
+	},
+
 	// DU LICH
 	{
 		name: 'Du lịch',

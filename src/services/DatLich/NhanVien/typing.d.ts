@@ -1,4 +1,4 @@
-import { ETrangThaiNhanVien } from '../constant';
+import type { ETrangThaiNhanVien } from '../constant';
 
 declare global {
 	namespace NhanVien {

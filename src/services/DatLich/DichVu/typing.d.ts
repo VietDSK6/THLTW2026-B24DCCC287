@@ -1,4 +1,4 @@
-import { ETrangThaiDichVu } from '../constant';
+import type { ETrangThaiDichVu } from '../constant';
 
 declare global {
 	namespace DichVu {
