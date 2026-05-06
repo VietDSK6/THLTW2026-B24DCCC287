@@ -140,6 +140,40 @@ export default [
 		icon: 'SearchOutlined',
 	},
 
+	// THE DUC
+	{
+		name: 'Thể dục & Sức khỏe',
+		path: '/the-duc',
+		icon: 'ThunderboltOutlined',
+		routes: [
+			{
+				name: 'Dashboard',
+				path: 'dashboard',
+				component: './TheDuc/Dashboard',
+			},
+			{
+				name: 'Nhật ký tập luyện',
+				path: 'nhat-ky-tap-luyen',
+				component: './TheDuc/NhatKyTapLuyen',
+			},
+			{
+				name: 'Chỉ số sức khỏe',
+				path: 'chi-so-suc-khoe',
+				component: './TheDuc/ChiSoSucKhoe',
+			},
+			{
+				name: 'Mục tiêu',
+				path: 'muc-tieu',
+				component: './TheDuc/MucTieu',
+			},
+			{
+				name: 'Thư viện bài tập',
+				path: 'thu-vien-bai-tap',
+				component: './TheDuc/ThuVienBaiTap',
+			},
+		],
+	},
+
 	// DU LICH
 	{
 		name: 'Du lịch',
